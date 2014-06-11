@@ -29,15 +29,37 @@ border-radius:25px;
 background:#a4b9b9;
 }
 
+.intro {
+position:absolute;
+height:100px;
+width:250px;
+border:1px solid #a4b9b9;
+margin-left:550px;
+/*margin-top:100px;*/
+border-radius:25px;
+background:#a4b9b9;
+top:3px;
+text-align:center;
+font-family:Stencil;
+font-size:150%;
+
+}
+
+.title {
+margin-top:35px;
+}
+
 .text {
 position:absolute;
 height:25px;
 width:170px;
-top:50px;
+top:42px;
 left:30px;
 font-size:110%;
-font-family:Impact;
+font-family:Arial;
 padding-left:2px;
+/*color:gray;*/
+font-weight:bold;
 }
 
 .but {
@@ -50,7 +72,7 @@ margin:0px;
 border-radius:10%;
 background:#d1dcdcl
 border:1px solid #d1dcdc;
-top:53px;
+top:45px;
 left:210px;
 }
 
@@ -61,7 +83,7 @@ font-family:Stencil;
 font-size:120%;
 color:white;
 left:10px;
-margin-top:15px;
+margin-top:10px;
 }
 
 li {
@@ -101,4 +123,17 @@ padding:0;
 position:relative;
 top:-42.5px;
 left:90px;
+}
+
+.instructions {
+display:block;
+font-family:Stencil;
+/*color:gray;*/
+font-size:75%;
+position:absolute;
+margin:0;
+padding:0;
+bottom:5px;
+left:26px;
+opacity:0.6;
 }
