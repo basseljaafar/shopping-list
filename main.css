@@ -123,6 +123,16 @@ padding:0;
 position:relative;
 top:-42.5px;
 left:90px;
+opacity:0.6;
+display:none;
+}
+
+.display{
+	display:initial;
+}
+
+.op {
+	opacity:1;
 }
 
 .instructions {
