@@ -1,8 +1,13 @@
 $(document).ready(function(){
 
-
+	$(".but").mouseenter(function(){
+	$(this).addClass("big");
+	});
 	
-
+	$(".but").mouseleave(function(){
+	$(this).removeClass("big");
+	});
+	
 	$(".but").mousedown(function(){
 	
 	if ($(".text").val() != "")
@@ -61,8 +66,12 @@ $(document).ready(function(){
 	$(this).removeClass("op");
 	})
 	
-	//.mouseup(function(){
-	//$(this).parent().slideUp();
-	//});
+	$("ul").on("mouseup","img", function(){
+	$(this).parent().slideUp("fast");
+	});
+	
+	$("ul").on("mousedown", "p", function(){
+	$(this).toggleClass("trial");
+	});
 	
 });

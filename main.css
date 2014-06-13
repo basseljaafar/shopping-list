@@ -62,6 +62,8 @@ padding-left:2px;
 font-weight:bold;
 }
 
+.but:focus {outline:0;}
+
 .but {
 height:25px;
 width:25px;
@@ -74,6 +76,15 @@ background:#d1dcdcl
 border:1px solid #d1dcdc;
 top:45px;
 left:210px;
+cursor:pointer;
+}
+
+.big{
+height:27px;
+width:27px;
+top:44px;
+left:209px;
+font-size:110%;
 }
 
 .add {
@@ -109,10 +120,12 @@ list-style-type: none;
 
 .element {
 display:block;
+cursor:pointer;
 }
 
 .trial {
 text-decoration: line-through;
+
 }
 
 img {
@@ -125,6 +138,7 @@ top:-42.5px;
 left:90px;
 opacity:0.6;
 display:none;
+cursor:pointer;
 }
 
 .display{
