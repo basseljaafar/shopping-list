@@ -72,6 +72,7 @@ $(document).ready(function(){
 	
 	$("ul").on("mousedown", "p", function(){
 	$(this).toggleClass("trial");
+	$(this).parent().toggleClass("color");
 	});
 	
 });

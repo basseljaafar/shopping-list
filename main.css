@@ -110,6 +110,11 @@ color:white;
 font-size:110%;
 }
 
+.color {
+	background:#acc0c0;
+	border:1px solid #acc0c0;
+}
+
 ul {
 position:relative;
 margin-top:0px;
