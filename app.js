@@ -70,9 +70,12 @@ $(document).ready(function(){
 	$(this).parent().slideUp("fast");
 	});
 	
-	$("ul").on("mousedown", "p", function(){
+	$("ul").on("mouseup", "p", function(){
+	//alert("mouseup");
 	$(this).toggleClass("trial");
 	$(this).parent().toggleClass("color");
 	});
+	
+
 	
 });
