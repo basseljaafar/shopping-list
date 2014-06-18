@@ -1,184 +1,147 @@
 body {
-background:#e8eded;
+    background: #e8eded;
 }
-
 .part {
-width:1350px;
-
-
+    /*width:1350px;*/
 }
-
 .one {
-height:200px;
-/*outline:1px solid black;*/
+    height: 200px;
+    /*outline:1px solid black;*/
 }
-
 .two {
-height:400px;
-/*outline:1px solid red;*/
+    height: 400px;
+    /*outline:1px solid red;*/
 }
-
 .box {
-position:absolute;
-height:100px;
-width:250px;
-border:1px solid #a4b9b9;
-margin-left:550px;
-margin-top:100px;
-border-radius:25px;
-background:#a4b9b9;
+    height: 100px;
+    width: 250px;
+    border: 1px solid #a4b9b9;
+    margin: 0 auto;
+    border-radius: 25px;
+    background: #a4b9b9;
 }
-
 .intro {
-position:absolute;
-height:100px;
-width:250px;
-border:1px solid #a4b9b9;
-margin-left:550px;
-/*margin-top:100px;*/
-border-radius:25px;
-background:#a4b9b9;
-top:3px;
-text-align:center;
-font-family:Stencil;
-font-size:150%;
-
+    height: 100px;
+    width: 250px;
+    margin: 0 auto;
+    border: 1px solid #a4b9b9;
+    border-radius: 25px;
+    background: #a4b9b9;
+    top: 3px;
+    text-align: center;
+    font-family: Stencil;
+    font-size: 150%;
 }
-
 .title {
-margin-top:35px;
+    margin-top: 35px;
 }
-
 .text {
-position:absolute;
-height:25px;
-width:170px;
-top:42px;
-left:30px;
-font-size:110%;
-font-family:Arial;
-padding-left:2px;
-/*color:gray;*/
-font-weight:bold;
+    height: 25px;
+    width: 170px;
+    margin-left: 30px;
+    font-size: 110%;
+    font-family: Arial;
+    padding-left: 2px;
+    /*color:gray;*/
+    font-weight: bold;
 }
-
-.but:focus {outline:0;}
-
+.but:focus {
+    outline: 0;
+}
 .but {
-height:25px;
-width:25px;
-position:absolute;
-padding:1px;
-border:0px;
-margin:0px;
-border-radius:10%;
-background:#d1dcdcl
-border:1px solid #d1dcdc;
-top:45px;
-left:210px;
-cursor:pointer;
+    height: 25px;
+    width: 25px;
+    padding: 1px;
+    border: 0px;
+    margin: 0px;
+    border-radius: 10%;
+    background: #d1dcdcl;
+    border: 1px solid #d1dcdc;
+    cursor: pointer;
 }
-
-.big{
-height:27px;
-width:27px;
-top:44px;
-left:209px;
-font-size:110%;
+.big {
+    height: 27px;
+    width: 27px;
+    top: 44px;
+    left: 209px;
+    font-size: 110%;
 }
-
 .add {
-display:block;
-position:absolute;
-font-family:Stencil;
-font-size:120%;
-color:white;
-left:10px;
-margin-top:10px;
+    display: block;
+    font-family: Stencil;
+    font-size: 120%;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
 }
-
 li {
-text-align:center;
-border-radius:20px;
-width:250px;
-height:50px;
-border:1px solid #769797;
-margin-top:5px;
-background:#769797;
-font-family:Stencil;
-color:white;
-font-size:110%;
+    text-align: center;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid #769797;
+    margin: 5px auto 0;
+    background: #769797;
+    font-family: Stencil;
+    color: white;
+    font-size: 110%;
 }
-
 .color {
-	background:#acc0c0;
-	border:1px solid #acc0c0;
+    background: #acc0c0;
+    border: 1px solid #acc0c0;
 }
-
 ul {
-position:relative;
-margin-top:0px;
-padding:0;
-margin-left:550px;
-list-style-type: none;
+    margin-top: 0px;
+    padding: 0;
+    list-style-type: none;
 }
-
 .element {
-display:block;
-cursor:pointer;
+    display: block;
+    cursor: pointer;
 }
-
 .trial {
-text-decoration: line-through;
-
+    text-decoration: line-through;
 }
-
 img {
-height:25px;
-width:25px;
-margin:0;
-padding:0;
-position:relative;
-top:-42.5px;
-left:90px;
-opacity:0.6;
-display:none;
-cursor:pointer;
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -42.5px;
+    left: 90px;
+    opacity: 0.6;
+    display: none;
+    cursor: pointer;
 }
-
-.display{
-	display:initial;
+.display {
+    display: initial;
 }
-
 .op {
-	opacity:1;
+    opacity: 1;
 }
-
 .instructions {
-display:block;
-font-family:Stencil;
-/*color:gray;*/
-font-size:75%;
-position:absolute;
-margin:0;
-padding:0;
-bottom:5px;
-left:26px;
-opacity:0.6;
+    display: block;
+    font-family: Stencil;
+    /*color:gray;*/
+    font-size: 75%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    margin-left: 26px;
+    opacity: 0.6;
 }
-
 ::-webkit-input-placeholder {
-   opacity:0.5;
+    opacity: 0.5;
 }
-
-:-moz-placeholder { /* Firefox 18- */
-   opacity:0.5;  
+:-moz-placeholder {
+    /* Firefox 18- */
+    opacity: 0.5;
 }
-
-::-moz-placeholder {  /* Firefox 19+ */
-   opacity:0.5;  
+::-moz-placeholder {
+    /* Firefox 19+ */
+    opacity: 0.5;
 }
-
-:-ms-input-placeholder {  
-   opacity:0.5;  
+:-ms-input-placeholder {
+    opacity: 0.5;
 }
